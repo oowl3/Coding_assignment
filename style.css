@@ -1,0 +1,166 @@
+body{
+    background-color: beige;
+
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+p{
+    padding-left: 2rem;
+    padding-right: 1rem;
+    margin-top: 0%;
+}
+
+hr{
+    width: 50%;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 1.5rem  0;
+}
+.title_s{
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3.1rem;
+    width: 50%;
+}
+
+.card {
+    background-color: floralwhite;
+    margin: 1.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 70%;
+}
+.card-text{
+    height: 10rem;
+}
+
+.card_s {
+    background-color: bisque;
+    border-radius: 1rem;
+    margin: .6rem;
+    width: 30%;
+}
+
+.card-title {
+    margin: 0;
+    font-size: 1.5rem;
+
+    padding: .5rem;
+}
+
+.card-button {
+    color: white;
+    border: none;
+    padding: .6rem 1.2rem;
+    text-align: center;
+    display: inline-block;
+    font-size: 1em;
+    margin-top: .5rem;
+    border-radius: .3rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-green {
+    background-color: #4CAF50;
+}
+
+.card-green:hover {
+    background-color: #3c8a40;
+}
+
+.card-red {
+    background-color: #f44336;
+}
+
+.card-red:hover {
+    background-color: #c02d2d;
+}
+
+.card-yellow {
+    background-color: goldenrod;
+}
+
+.card-yellow:hover {
+    background-color: rgb(180, 137, 26);
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.help-button {
+    background-color: chocolate; /* Verde */
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: .3rem .5rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    transition: background-color 0.5s ease;
+}
+.help-button:hover {
+    background-color: sienna; 
+}
+.help-button .link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.help-button .link:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .card_s {
+        width: 45%; 
+    }
+    .card-text{
+        height: 8rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .card_s {
+        width: 90%; 
+    }
+    .card-text{
+        height: 5.5rem;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .card_s {
+        width: 90%;
+    }
+    .card-text{
+        height: 8rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .card_s {
+        width: 90%;
+    }
+    .card-text{
+        height: 12rem;
+    }
+}
